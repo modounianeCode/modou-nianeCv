@@ -13,18 +13,17 @@
     background-color: rgb(202, 202, 202);
 }
 body{
-    width: 100%;
-    height: 100%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: larger;
     letter-spacing: normal;
     padding: auto;
-    background-color:white;
-    color:red;
+    
 }
 html{
     text-align: left;
     border: 5px solid transparent;
+    padding: auto;
+    background-color: white;
 }
 /*@media screen and (resolution:landscape){
 .cv{
