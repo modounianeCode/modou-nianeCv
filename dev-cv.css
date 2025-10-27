@@ -17,7 +17,8 @@ body{
     font-size: larger;
     letter-spacing: normal;
     padding: auto;
-    
+    margin-left: 10%;
+    margin-right: 10%;
 }
 html{
     text-align: left;
