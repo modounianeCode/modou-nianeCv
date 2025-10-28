@@ -2,15 +2,14 @@
     display: flex;
 }
 .p1{
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 10px;
+    background-color: gray;
+    padding-left: 2%;
+    padding-right: 10%;
 }
 #p2{
+    background-color: white;
     /*background-color: brown;*/
     padding-left: 20px;
-    padding-right: 15px;
-    background-color: gray;
 }
 body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
