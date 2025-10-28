@@ -32,7 +32,6 @@ html{
 @media screen and (max-width: 768px) {
     .cv {
         flex-direction: column;
-    }
-    
-    
+        align-items: center;
+    } 
 }
