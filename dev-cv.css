@@ -2,9 +2,9 @@
     display: flex;
 }
 .p1{
-    background-color: turquoise;
     padding-left: 2%;
     padding-right: 10%;
+    background-color: #a2a2a2;
 }
 #p2{
     background-color: white;
@@ -12,8 +12,9 @@
     padding-left: 2%;
 }
 body{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-style: normal;                                                                                                                                
     letter-spacing: normal;
     padding: auto;
     margin-left: 2%;
@@ -32,23 +33,9 @@ html{
 @media screen and (max-width: 768px) {
     .cv{
         display: grid;
-        grid-template-columns: repeat(2,1fr);
-    }
-    body{
-        padding: 0;
+        grid-template-rows: repeat(2,1fr);
+        padding: 5%;
         margin: 0;
     }
-    .p1, #p2{
-        padding: 2%;
-        margin: 2%;
-    }
-    #p2{
-        padding-right: 0;
-    }
-    body{
-        margin: 0;
-    }
-    img{
-       text-align: center;
-    }
+   
 }
